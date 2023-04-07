@@ -1,0 +1,145 @@
+.main {
+    flex: 5;
+    background-color: rgb(0, 0, 0);
+    padding: 25px 13px 25px 13px;
+}
+
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-top {
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+}
+
+.sym {
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: black;
+    margin-right: 25px;
+}
+
+.rev {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.rev-text {
+    font-size: 13px;
+}
+
+.rev-num {
+    font-weight: 800;
+}
+
+.main-center {
+    display: flex;
+    gap: 10px;
+}
+
+.main-center-left,
+.main-center-right {
+    background-color: rgb(41, 41, 41);
+    padding: 10px 20px 2px 10px;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.main-center-left-wrapper {
+    width: 85%;
+}
+
+.main-center-right-wrapper {
+    width: 85%;
+}
+
+.app-text {
+    color: rgb(147, 149, 151);
+    font-size: 12px;
+}
+
+.status {
+    font-size: 10px;
+    color: rgb(122, 123, 124)
+}
+
+.button-box {
+    margin-top: 10px;
+    width: 80%;
+}
+
+.center-button {
+    border: none;
+    border-radius: 10px;
+    padding: 3px 13px;
+    font-size: 10px;
+    color: rgb(125, 126, 126);
+    background-color: black;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+button.active {
+    background-color: rgb(67, 67, 158);
+    color: aliceblue;
+}
+
+.main-bottom {
+    background-color: rgb(41, 41, 41);
+    padding: 20px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+.slots {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slots-details {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.slots-details button {
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90px;
+    width: 65px;
+}
+
+.slots-details button span {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.month {
+    margin-top: 8px;
+    font-size: 10px;
+    color: rgb(215, 219, 222);
+}
+
+button.b-active {
+    background-color: rgb(207, 41, 83);
+    color: white;
+}
